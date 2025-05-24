@@ -1,0 +1,28 @@
+{
+  "name": "rutasseguras",
+  "version": "1.0.0",
+  "description": "Explorando Rutas Seguras en Lima: Una Aplicación con PostgreSQL y Google Maps",
+  "main": "index.js",
+  "type": "module",
+  
+  "scripts": {
+    "dev": "node --watch src/backend/express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaimeSuarez14/RutasSeguras.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "bugs": {
+    "url": "https://github.com/JaimeSuarez14/RutasSeguras/issues"
+  },
+  "homepage": "https://github.com/JaimeSuarez14/RutasSeguras#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.16.0"
+  }
+}
